@@ -1,18 +1,39 @@
 {
-  "name": "radar-chart-d3",
+  "name": "Wheel of Life Priorities",
   "version": "1.2.0",
   "main": [
     "src/radar-chart.js",
     "src/radar-chart.css"
   ],
-  "description": "Radar chart based on D3",
-  "license": "Apache",
+  "description": "Identify your life priorities, set goals, and track your progress.",
+  "license": "MIT",
   "ignore": [
     ".jshintrc",
-    "**/*.txt"
+    "**/*.txt",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
   ],
   "dependencies": {
-    "d3": "~3.5.5"
+    "d3": "~3.5.5",
+    "radar-chart-d3": "git@github.com:alangrafu/radar-chart-d3.git#^1.2.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "homepage": "https://stemmein.com/wheel-of-life",
+  "authors": [
+    "Chau Vu"
+  ],
+  "keywords": [
+    "Physical Health",
+    "Mental Health",
+    "Family",
+    "Relationship",
+    "Career",
+    "Society",
+    "Personal Growth",
+    "Hobbies",
+    "Wealth"
+  ]
 }
