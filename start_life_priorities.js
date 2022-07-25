@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 8080
 var express = require('express'),
     app = express();
 
@@ -7,4 +8,4 @@ app.get('/', (req, res) => {
     return res.status(200).send('This is the root of my express application');
   });
 
-app.listen(8080);
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`));
